@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li .section {
+    color: black;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: block;
+    font-weight: bold;
+}
+
+nav ul li .section:hover {
+    background-color: #555;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Website content */
+
+h1 {
+    text-align: center;
+    margin: 50px;
+    font-size: 3rem;
+}
+
+.btn-1 {
+    margin: 10px;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.cosas-hacer {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cosa-hacer {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    width: 25px; /* Ancho muy pequeño */
+    height: 25px; /* Alto muy pequeño */
+}
+
+.mas {
+    text-decoration: none;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.maneras {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.manera {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    align-items: center;
+    width: 30%;
+    min-width: 300px; /* Asegurar un ancho mínimo para que se vean bien */
+}
+
+.manera p {
+    text-align: justify;
+    margin: 10px;
+}
+
+.funcion {
+    margin: 20px auto; /* Centrar horizontalmente y agregar margen vertical */
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    width: 40%;
+    min-width: 300px; /* Asegurar un ancho mínimo para que se vean bien */
+}
+
+.funciones {
+    text-align: center;
+}
+
+.faq {
+    margin: 20px auto; /* Centrar horizontalmente y agregar margen vertical */
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid #333;
+    width: 40%;
+    min-width: 300px; /* Asegurar un ancho mínimo para que se vean bien */
+}
+
+.faqs {
+    text-align: center;
+}
